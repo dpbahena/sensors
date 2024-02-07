@@ -1,0 +1,30 @@
+[0.098s] Invoking command in '/home/sensors_ws/build/mpu6050driver': /usr/local/bin/cmake --build /home/sensors_ws/build/mpu6050driver -- -j8 -l8
+[0.349s] [ 33%] [32mBuilding CXX object CMakeFiles/mpu6050driver.dir/src/mpu6050driver.cpp.o[0m
+[0.350s] [ 66%] [32mBuilding CXX object CMakeFiles/mpu6050driver.dir/src/mpu6050sensor.cpp.o[0m
+[17.149s] [100%] [32m[1mLinking CXX executable mpu6050driver[0m
+[17.921s] [100%] Built target mpu6050driver
+[17.957s] Invoked command in '/home/sensors_ws/build/mpu6050driver' returned '0': /usr/local/bin/cmake --build /home/sensors_ws/build/mpu6050driver -- -j8 -l8
+[18.334s] Invoking command in '/home/sensors_ws/build/mpu6050driver': /usr/local/bin/cmake --install /home/sensors_ws/build/mpu6050driver
+[18.472s] -- Install configuration: ""
+[18.473s] -- Installing: /home/sensors_ws/install/mpu6050driver/lib/mpu6050driver/mpu6050driver
+[18.484s] -- Set runtime path of "/home/sensors_ws/install/mpu6050driver/lib/mpu6050driver/mpu6050driver" to ""
+[18.485s] -- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver//launch
+[18.486s] -- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver//launch/mpu6050driver_launch.py
+[18.487s] -- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver//params
+[18.487s] -- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver//params/mpu6050.yaml
+[18.488s] -- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/ament_index/resource_index/package_run_dependencies/mpu6050driver
+[18.488s] -- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/ament_index/resource_index/parent_prefix_path/mpu6050driver
+[18.488s] -- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/environment/ament_prefix_path.sh
+[18.489s] -- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/environment/ament_prefix_path.dsv
+[18.489s] -- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/environment/path.sh
+[18.490s] -- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/environment/path.dsv
+[18.490s] -- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/local_setup.bash
+[18.490s] -- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/local_setup.sh
+[18.491s] -- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/local_setup.zsh
+[18.491s] -- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/local_setup.dsv
+[18.491s] -- Installing: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/package.dsv
+[18.492s] -- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/ament_index/resource_index/packages/mpu6050driver
+[18.492s] -- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/cmake/mpu6050driverConfig.cmake
+[18.492s] -- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/cmake/mpu6050driverConfig-version.cmake
+[18.493s] -- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/package.xml
+[18.519s] Invoked command in '/home/sensors_ws/build/mpu6050driver' returned '0': /usr/local/bin/cmake --install /home/sensors_ws/build/mpu6050driver

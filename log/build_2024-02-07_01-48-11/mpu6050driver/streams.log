@@ -1,0 +1,47 @@
+[0.094s] Invoking command in '/home/sensors_ws/build/mpu6050driver': /usr/local/bin/cmake --build /home/sensors_ws/build/mpu6050driver -- -j8 -l8
+[0.278s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/install/share/ament_cmake/cmake)
+[0.703s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/install/share/rclcpp/cmake)
+[0.834s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+[0.846s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[0.872s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+[0.920s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.994s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.221s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
+[1.226s] -- Found rmw_cyclonedds_cpp: 1.3.3 (/opt/ros/humble/install/share/rmw_cyclonedds_cpp/cmake)
+[1.312s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.804s] -- Found sensor_msgs: 4.2.2 (/opt/ros/humble/install/share/sensor_msgs/cmake)
+[2.442s] -- Configuring done
+[2.507s] -- Generating done
+[2.515s] -- Build files have been written to: /home/sensors_ws/build/mpu6050driver
+[2.566s] [35m[1mConsolidate compiler generated dependencies of target mpu6050driver[0m
+[2.566s] [35m[1mConsolidate compiler generated dependencies of target pitch_roll[0m
+[2.632s] [ 20%] [32mBuilding CXX object CMakeFiles/pitch_roll.dir/src/pitch_roll.cpp.o[0m
+[2.635s] [ 80%] Built target mpu6050driver
+[30.753s] [100%] [32m[1mLinking CXX executable pitch_roll[0m
+[32.193s] [100%] Built target pitch_roll
+[32.225s] Invoked command in '/home/sensors_ws/build/mpu6050driver' returned '0': /usr/local/bin/cmake --build /home/sensors_ws/build/mpu6050driver -- -j8 -l8
+[32.591s] Invoking command in '/home/sensors_ws/build/mpu6050driver': /usr/local/bin/cmake --install /home/sensors_ws/build/mpu6050driver
+[32.701s] -- Install configuration: ""
+[32.702s] -- Up-to-date: /home/sensors_ws/install/mpu6050driver/lib/mpu6050driver/mpu6050driver
+[32.703s] -- Installing: /home/sensors_ws/install/mpu6050driver/lib/mpu6050driver/pitch_roll
+[32.731s] -- Set runtime path of "/home/sensors_ws/install/mpu6050driver/lib/mpu6050driver/pitch_roll" to ""
+[32.732s] -- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver//launch
+[32.732s] -- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver//launch/mpu6050driver_launch.py
+[32.734s] -- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver//params
+[32.734s] -- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver//params/mpu6050.yaml
+[32.735s] -- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/ament_index/resource_index/package_run_dependencies/mpu6050driver
+[32.735s] -- Installing: /home/sensors_ws/install/mpu6050driver/share/ament_index/resource_index/parent_prefix_path/mpu6050driver
+[32.735s] -- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/environment/ament_prefix_path.sh
+[32.736s] -- Installing: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/environment/ament_prefix_path.dsv
+[32.738s] -- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/environment/path.sh
+[32.738s] -- Installing: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/environment/path.dsv
+[32.738s] -- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/local_setup.bash
+[32.739s] -- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/local_setup.sh
+[32.739s] -- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/local_setup.zsh
+[32.739s] -- Installing: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/local_setup.dsv
+[32.740s] -- Installing: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/package.dsv
+[32.741s] -- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/ament_index/resource_index/packages/mpu6050driver
+[32.741s] -- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/cmake/mpu6050driverConfig.cmake
+[32.742s] -- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/cmake/mpu6050driverConfig-version.cmake
+[32.742s] -- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/package.xml
+[32.766s] Invoked command in '/home/sensors_ws/build/mpu6050driver' returned '0': /usr/local/bin/cmake --install /home/sensors_ws/build/mpu6050driver

@@ -1,0 +1,299 @@
+[0.000000] (-) TimerEvent: {}
+[0.001971] (mpu6050driver) JobQueued: {'identifier': 'mpu6050driver', 'dependencies': OrderedDict()}
+[0.002474] (mpu6050driver) JobStarted: {'identifier': 'mpu6050driver'}
+[0.092670] (mpu6050driver) JobProgress: {'identifier': 'mpu6050driver', 'progress': 'cmake'}
+[0.094957] (mpu6050driver) Command: {'cmd': ['/usr/local/bin/cmake', '/home/sensors_ws/src/ros2_mpu6050_driver', '-DCMAKE_INSTALL_PREFIX=/home/sensors_ws/install/mpu6050driver'], 'cwd': '/home/sensors_ws/build/mpu6050driver', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('JETSON_MODEL_NAME', 'JETSON_XAVIER'), ('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/home'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XAUTHORITY', '/tmp/.docker.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/home/sensors_ws/build/mpu6050driver'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble/install')]), 'shell': False}
+[0.100033] (-) TimerEvent: {}
+[0.201469] (-) TimerEvent: {}
+[0.303810] (-) TimerEvent: {}
+[0.404625] (-) TimerEvent: {}
+[0.505545] (-) TimerEvent: {}
+[0.606350] (-) TimerEvent: {}
+[0.637711] (mpu6050driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.706649] (-) TimerEvent: {}
+[0.807514] (-) TimerEvent: {}
+[0.908419] (-) TimerEvent: {}
+[0.985372] (mpu6050driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.009010] (-) TimerEvent: {}
+[1.030520] (mpu6050driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.109103] (-) TimerEvent: {}
+[1.210162] (-) TimerEvent: {}
+[1.292511] (mpu6050driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.310716] (-) TimerEvent: {}
+[1.354444] (mpu6050driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.356094] (mpu6050driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.358803] (mpu6050driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.375319] (mpu6050driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.410777] (-) TimerEvent: {}
+[1.511533] (-) TimerEvent: {}
+[1.612357] (-) TimerEvent: {}
+[1.661704] (mpu6050driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.712618] (-) TimerEvent: {}
+[1.720124] (mpu6050driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.721417] (mpu6050driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.723668] (mpu6050driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.735556] (mpu6050driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/install/share/ament_cmake/cmake)\n'}
+[1.812819] (-) TimerEvent: {}
+[1.913810] (-) TimerEvent: {}
+[2.014636] (-) TimerEvent: {}
+[2.115333] (-) TimerEvent: {}
+[2.216011] (-) TimerEvent: {}
+[2.317286] (-) TimerEvent: {}
+[2.419027] (-) TimerEvent: {}
+[2.519759] (-) TimerEvent: {}
+[2.576272] (mpu6050driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter \n'}
+[2.619942] (-) TimerEvent: {}
+[2.720760] (-) TimerEvent: {}
+[2.821653] (-) TimerEvent: {}
+[2.914901] (mpu6050driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.1 (/opt/ros/humble/install/share/rclcpp/cmake)\n'}
+[2.921717] (-) TimerEvent: {}
+[3.022288] (-) TimerEvent: {}
+[3.123104] (-) TimerEvent: {}
+[3.147529] (mpu6050driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)\n'}
+[3.171063] (mpu6050driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/install/share/rosidl_adapter/cmake)\n'}
+[3.212884] (mpu6050driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)\n'}
+[3.223178] (-) TimerEvent: {}
+[3.289119] (mpu6050driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.323307] (-) TimerEvent: {}
+[3.384743] (mpu6050driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.423475] (-) TimerEvent: {}
+[3.524245] (-) TimerEvent: {}
+[3.625110] (-) TimerEvent: {}
+[3.664676] (mpu6050driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)\n'}
+[3.674779] (mpu6050driver) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.3 (/opt/ros/humble/install/share/rmw_cyclonedds_cpp/cmake)\n'}
+[3.725247] (-) TimerEvent: {}
+[3.778781] (mpu6050driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[3.825360] (-) TimerEvent: {}
+[3.926207] (-) TimerEvent: {}
+[4.027024] (-) TimerEvent: {}
+[4.127842] (-) TimerEvent: {}
+[4.228807] (-) TimerEvent: {}
+[4.329753] (-) TimerEvent: {}
+[4.340592] (mpu6050driver) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.2 (/opt/ros/humble/install/share/sensor_msgs/cmake)\n'}
+[4.429966] (-) TimerEvent: {}
+[4.530825] (-) TimerEvent: {}
+[4.631874] (-) TimerEvent: {}
+[4.732686] (-) TimerEvent: {}
+[4.833450] (-) TimerEvent: {}
+[4.934483] (-) TimerEvent: {}
+[5.029563] (mpu6050driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.034663] (-) TimerEvent: {}
+[5.084058] (mpu6050driver) StdoutLine: {'line': b'-- Generating done\n'}
+[5.091145] (mpu6050driver) StdoutLine: {'line': b'-- Build files have been written to: /home/sensors_ws/build/mpu6050driver\n'}
+[5.128730] (mpu6050driver) CommandEnded: {'returncode': 0}
+[5.134767] (mpu6050driver) JobProgress: {'identifier': 'mpu6050driver', 'progress': 'build'}
+[5.135277] (-) TimerEvent: {}
+[5.146899] (mpu6050driver) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/sensors_ws/build/mpu6050driver', '--', '-j8', '-l8'], 'cwd': '/home/sensors_ws/build/mpu6050driver', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('JETSON_MODEL_NAME', 'JETSON_XAVIER'), ('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/home'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XAUTHORITY', '/tmp/.docker.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/home/sensors_ws/build/mpu6050driver'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble/install')]), 'shell': False}
+[5.235585] (-) TimerEvent: {}
+[5.336697] (-) TimerEvent: {}
+[5.366997] (mpu6050driver) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/mpu6050driver.dir/src/mpu6050driver.cpp.o\x1b[0m\n'}
+[5.367795] (mpu6050driver) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/mpu6050driver.dir/src/mpu6050sensor.cpp.o\x1b[0m\n'}
+[5.436985] (-) TimerEvent: {}
+[5.537807] (-) TimerEvent: {}
+[5.639474] (-) TimerEvent: {}
+[5.740873] (-) TimerEvent: {}
+[5.842061] (-) TimerEvent: {}
+[5.943409] (-) TimerEvent: {}
+[6.044566] (-) TimerEvent: {}
+[6.145465] (-) TimerEvent: {}
+[6.246304] (-) TimerEvent: {}
+[6.347084] (-) TimerEvent: {}
+[6.447895] (-) TimerEvent: {}
+[6.548813] (-) TimerEvent: {}
+[6.649847] (-) TimerEvent: {}
+[6.750705] (-) TimerEvent: {}
+[6.851520] (-) TimerEvent: {}
+[6.952406] (-) TimerEvent: {}
+[7.053485] (-) TimerEvent: {}
+[7.154448] (-) TimerEvent: {}
+[7.255451] (-) TimerEvent: {}
+[7.356355] (-) TimerEvent: {}
+[7.457290] (-) TimerEvent: {}
+[7.558198] (-) TimerEvent: {}
+[7.659084] (-) TimerEvent: {}
+[7.759975] (-) TimerEvent: {}
+[7.861147] (-) TimerEvent: {}
+[7.962312] (-) TimerEvent: {}
+[8.063491] (-) TimerEvent: {}
+[8.164623] (-) TimerEvent: {}
+[8.265737] (-) TimerEvent: {}
+[8.366728] (-) TimerEvent: {}
+[8.467855] (-) TimerEvent: {}
+[8.568990] (-) TimerEvent: {}
+[8.670653] (-) TimerEvent: {}
+[8.772093] (-) TimerEvent: {}
+[8.873779] (-) TimerEvent: {}
+[8.975393] (-) TimerEvent: {}
+[9.077042] (-) TimerEvent: {}
+[9.178479] (-) TimerEvent: {}
+[9.279272] (-) TimerEvent: {}
+[9.380134] (-) TimerEvent: {}
+[9.480887] (-) TimerEvent: {}
+[9.581754] (-) TimerEvent: {}
+[9.682555] (-) TimerEvent: {}
+[9.783411] (-) TimerEvent: {}
+[9.884244] (-) TimerEvent: {}
+[9.985329] (-) TimerEvent: {}
+[10.086209] (-) TimerEvent: {}
+[10.187029] (-) TimerEvent: {}
+[10.287817] (-) TimerEvent: {}
+[10.388663] (-) TimerEvent: {}
+[10.489511] (-) TimerEvent: {}
+[10.590281] (-) TimerEvent: {}
+[10.691098] (-) TimerEvent: {}
+[10.791863] (-) TimerEvent: {}
+[10.892661] (-) TimerEvent: {}
+[10.993627] (-) TimerEvent: {}
+[11.094632] (-) TimerEvent: {}
+[11.195439] (-) TimerEvent: {}
+[11.296196] (-) TimerEvent: {}
+[11.397039] (-) TimerEvent: {}
+[11.497869] (-) TimerEvent: {}
+[11.598673] (-) TimerEvent: {}
+[11.699485] (-) TimerEvent: {}
+[11.800298] (-) TimerEvent: {}
+[11.901266] (-) TimerEvent: {}
+[12.002092] (-) TimerEvent: {}
+[12.102928] (-) TimerEvent: {}
+[12.203687] (-) TimerEvent: {}
+[12.304441] (-) TimerEvent: {}
+[12.405285] (-) TimerEvent: {}
+[12.506069] (-) TimerEvent: {}
+[12.606872] (-) TimerEvent: {}
+[12.707633] (-) TimerEvent: {}
+[12.808360] (-) TimerEvent: {}
+[12.909064] (-) TimerEvent: {}
+[13.009882] (-) TimerEvent: {}
+[13.110703] (-) TimerEvent: {}
+[13.211501] (-) TimerEvent: {}
+[13.312308] (-) TimerEvent: {}
+[13.413203] (-) TimerEvent: {}
+[13.513998] (-) TimerEvent: {}
+[13.614779] (-) TimerEvent: {}
+[13.715620] (-) TimerEvent: {}
+[13.816541] (-) TimerEvent: {}
+[13.917403] (-) TimerEvent: {}
+[14.018196] (-) TimerEvent: {}
+[14.119075] (-) TimerEvent: {}
+[14.219898] (-) TimerEvent: {}
+[14.320670] (-) TimerEvent: {}
+[14.421462] (-) TimerEvent: {}
+[14.522362] (-) TimerEvent: {}
+[14.623312] (-) TimerEvent: {}
+[14.724211] (-) TimerEvent: {}
+[14.825031] (-) TimerEvent: {}
+[14.925791] (-) TimerEvent: {}
+[15.026671] (-) TimerEvent: {}
+[15.127382] (-) TimerEvent: {}
+[15.228093] (-) TimerEvent: {}
+[15.328805] (-) TimerEvent: {}
+[15.429645] (-) TimerEvent: {}
+[15.530437] (-) TimerEvent: {}
+[15.631224] (-) TimerEvent: {}
+[15.731998] (-) TimerEvent: {}
+[15.832757] (-) TimerEvent: {}
+[15.933581] (-) TimerEvent: {}
+[16.034400] (-) TimerEvent: {}
+[16.135249] (-) TimerEvent: {}
+[16.236052] (-) TimerEvent: {}
+[16.336811] (-) TimerEvent: {}
+[16.437618] (-) TimerEvent: {}
+[16.538359] (-) TimerEvent: {}
+[16.639129] (-) TimerEvent: {}
+[16.739819] (-) TimerEvent: {}
+[16.840575] (-) TimerEvent: {}
+[16.941362] (-) TimerEvent: {}
+[17.042154] (-) TimerEvent: {}
+[17.142858] (-) TimerEvent: {}
+[17.243555] (-) TimerEvent: {}
+[17.344454] (-) TimerEvent: {}
+[17.445321] (-) TimerEvent: {}
+[17.546154] (-) TimerEvent: {}
+[17.647614] (-) TimerEvent: {}
+[17.748423] (-) TimerEvent: {}
+[17.849288] (-) TimerEvent: {}
+[17.950094] (-) TimerEvent: {}
+[18.050901] (-) TimerEvent: {}
+[18.151755] (-) TimerEvent: {}
+[18.252601] (-) TimerEvent: {}
+[18.353529] (-) TimerEvent: {}
+[18.454390] (-) TimerEvent: {}
+[18.555174] (-) TimerEvent: {}
+[18.656010] (-) TimerEvent: {}
+[18.756847] (-) TimerEvent: {}
+[18.857750] (-) TimerEvent: {}
+[18.958627] (-) TimerEvent: {}
+[19.059480] (-) TimerEvent: {}
+[19.160321] (-) TimerEvent: {}
+[19.261104] (-) TimerEvent: {}
+[19.361894] (-) TimerEvent: {}
+[19.462847] (-) TimerEvent: {}
+[19.563673] (-) TimerEvent: {}
+[19.664507] (-) TimerEvent: {}
+[19.765382] (-) TimerEvent: {}
+[19.866173] (-) TimerEvent: {}
+[19.967028] (-) TimerEvent: {}
+[20.067846] (-) TimerEvent: {}
+[20.168691] (-) TimerEvent: {}
+[20.269521] (-) TimerEvent: {}
+[20.370376] (-) TimerEvent: {}
+[20.471212] (-) TimerEvent: {}
+[20.572005] (-) TimerEvent: {}
+[20.672817] (-) TimerEvent: {}
+[20.773742] (-) TimerEvent: {}
+[20.874521] (-) TimerEvent: {}
+[20.975336] (-) TimerEvent: {}
+[21.076179] (-) TimerEvent: {}
+[21.177078] (-) TimerEvent: {}
+[21.277881] (-) TimerEvent: {}
+[21.378805] (-) TimerEvent: {}
+[21.479756] (-) TimerEvent: {}
+[21.580528] (-) TimerEvent: {}
+[21.681397] (-) TimerEvent: {}
+[21.700597] (mpu6050driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable mpu6050driver\x1b[0m\n'}
+[21.781615] (-) TimerEvent: {}
+[21.882416] (-) TimerEvent: {}
+[21.983265] (-) TimerEvent: {}
+[22.084149] (-) TimerEvent: {}
+[22.185086] (-) TimerEvent: {}
+[22.285927] (-) TimerEvent: {}
+[22.386785] (-) TimerEvent: {}
+[22.487691] (-) TimerEvent: {}
+[22.534342] (mpu6050driver) StdoutLine: {'line': b'[100%] Built target mpu6050driver\n'}
+[22.567301] (mpu6050driver) CommandEnded: {'returncode': 0}
+[22.588280] (-) TimerEvent: {}
+[22.689776] (-) TimerEvent: {}
+[22.770188] (mpu6050driver) JobProgress: {'identifier': 'mpu6050driver', 'progress': 'install'}
+[22.790517] (-) TimerEvent: {}
+[22.892263] (-) TimerEvent: {}
+[22.915395] (mpu6050driver) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/sensors_ws/build/mpu6050driver'], 'cwd': '/home/sensors_ws/build/mpu6050driver', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('JETSON_MODEL_NAME', 'JETSON_XAVIER'), ('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/home'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XAUTHORITY', '/tmp/.docker.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/home/sensors_ws/build/mpu6050driver'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble/install')]), 'shell': False}
+[22.992567] (-) TimerEvent: {}
+[23.035360] (mpu6050driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.036255] (mpu6050driver) StdoutLine: {'line': b'-- Installing: /home/sensors_ws/install/mpu6050driver/lib/mpu6050driver/mpu6050driver\n'}
+[23.045032] (mpu6050driver) StdoutLine: {'line': b'-- Set runtime path of "/home/sensors_ws/install/mpu6050driver/lib/mpu6050driver/mpu6050driver" to ""\n'}
+[23.045520] (mpu6050driver) StdoutLine: {'line': b'-- Installing: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver//launch\n'}
+[23.046017] (mpu6050driver) StdoutLine: {'line': b'-- Installing: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver//launch/mpu6050driver_launch.py\n'}
+[23.046562] (mpu6050driver) StdoutLine: {'line': b'-- Installing: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver//params\n'}
+[23.047024] (mpu6050driver) StdoutLine: {'line': b'-- Installing: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver//params/mpu6050.yaml\n'}
+[23.048009] (mpu6050driver) StdoutLine: {'line': b'-- Installing: /home/sensors_ws/install/mpu6050driver/share/ament_index/resource_index/package_run_dependencies/mpu6050driver\n'}
+[23.049017] (mpu6050driver) StdoutLine: {'line': b'-- Installing: /home/sensors_ws/install/mpu6050driver/share/ament_index/resource_index/parent_prefix_path/mpu6050driver\n'}
+[23.050063] (mpu6050driver) StdoutLine: {'line': b'-- Installing: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/environment/ament_prefix_path.sh\n'}
+[23.050868] (mpu6050driver) StdoutLine: {'line': b'-- Installing: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/environment/ament_prefix_path.dsv\n'}
+[23.051725] (mpu6050driver) StdoutLine: {'line': b'-- Installing: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/environment/path.sh\n'}
+[23.052489] (mpu6050driver) StdoutLine: {'line': b'-- Installing: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/environment/path.dsv\n'}
+[23.053404] (mpu6050driver) StdoutLine: {'line': b'-- Installing: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/local_setup.bash\n'}
+[23.054218] (mpu6050driver) StdoutLine: {'line': b'-- Installing: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/local_setup.sh\n'}
+[23.054988] (mpu6050driver) StdoutLine: {'line': b'-- Installing: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/local_setup.zsh\n'}
+[23.055659] (mpu6050driver) StdoutLine: {'line': b'-- Installing: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/local_setup.dsv\n'}
+[23.056417] (mpu6050driver) StdoutLine: {'line': b'-- Installing: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/package.dsv\n'}
+[23.057407] (mpu6050driver) StdoutLine: {'line': b'-- Installing: /home/sensors_ws/install/mpu6050driver/share/ament_index/resource_index/packages/mpu6050driver\n'}
+[23.058358] (mpu6050driver) StdoutLine: {'line': b'-- Installing: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/cmake/mpu6050driverConfig.cmake\n'}
+[23.058912] (mpu6050driver) StdoutLine: {'line': b'-- Installing: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/cmake/mpu6050driverConfig-version.cmake\n'}
+[23.059688] (mpu6050driver) StdoutLine: {'line': b'-- Installing: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/package.xml\n'}
+[23.082737] (mpu6050driver) CommandEnded: {'returncode': 0}
+[23.092823] (-) TimerEvent: {}
+[23.202386] (-) TimerEvent: {}
+[23.306354] (-) TimerEvent: {}
+[23.412812] (-) TimerEvent: {}
+[23.474486] (mpu6050driver) JobEnded: {'identifier': 'mpu6050driver', 'rc': 0}
+[23.477919] (-) EventReactorShutdown: {}

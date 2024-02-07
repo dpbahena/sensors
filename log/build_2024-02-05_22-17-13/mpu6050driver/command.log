@@ -1,0 +1,6 @@
+Invoking command in '/home/sensors_ws/build/mpu6050driver': /usr/local/bin/cmake /home/sensors_ws/src/ros2_mpu6050_driver -DCMAKE_INSTALL_PREFIX=/home/sensors_ws/install/mpu6050driver
+Invoked command in '/home/sensors_ws/build/mpu6050driver' returned '0': /usr/local/bin/cmake /home/sensors_ws/src/ros2_mpu6050_driver -DCMAKE_INSTALL_PREFIX=/home/sensors_ws/install/mpu6050driver
+Invoking command in '/home/sensors_ws/build/mpu6050driver': /usr/local/bin/cmake --build /home/sensors_ws/build/mpu6050driver -- -j8 -l8
+Invoked command in '/home/sensors_ws/build/mpu6050driver' returned '0': /usr/local/bin/cmake --build /home/sensors_ws/build/mpu6050driver -- -j8 -l8
+Invoking command in '/home/sensors_ws/build/mpu6050driver': /usr/local/bin/cmake --install /home/sensors_ws/build/mpu6050driver
+Invoked command in '/home/sensors_ws/build/mpu6050driver' returned '0': /usr/local/bin/cmake --install /home/sensors_ws/build/mpu6050driver

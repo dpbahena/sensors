@@ -1,0 +1,2 @@
+Invoking command in '/home/sensors_ws/build/mpu6050driver': /usr/local/bin/cmake --build /home/sensors_ws/build/mpu6050driver -- -j8 -l8
+Invoked command in '/home/sensors_ws/build/mpu6050driver' returned '2': /usr/local/bin/cmake --build /home/sensors_ws/build/mpu6050driver -- -j8 -l8

@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target pitch_roll[0m
+[ 60%] Built target mpu6050driver
+[ 80%] [32mBuilding CXX object CMakeFiles/pitch_roll.dir/src/pitch_roll.cpp.o[0m
+[100%] [32m[1mLinking CXX executable pitch_roll[0m
+[100%] Built target pitch_roll
+-- Install configuration: ""
+-- Up-to-date: /home/sensors_ws/install/mpu6050driver/lib/mpu6050driver/mpu6050driver
+-- Installing: /home/sensors_ws/install/mpu6050driver/lib/mpu6050driver/pitch_roll
+-- Set runtime path of "/home/sensors_ws/install/mpu6050driver/lib/mpu6050driver/pitch_roll" to ""
+-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver//launch
+-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver//launch/mpu6050driver_launch.py
+-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver//params
+-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver//params/mpu6050.yaml
+-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/ament_index/resource_index/package_run_dependencies/mpu6050driver
+-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/ament_index/resource_index/parent_prefix_path/mpu6050driver
+-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/environment/ament_prefix_path.sh
+-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/environment/path.sh
+-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/environment/path.dsv
+-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/local_setup.bash
+-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/local_setup.sh
+-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/local_setup.zsh
+-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/local_setup.dsv
+-- Installing: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/package.dsv
+-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/ament_index/resource_index/packages/mpu6050driver
+-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/cmake/mpu6050driverConfig.cmake
+-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/cmake/mpu6050driverConfig-version.cmake
+-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/package.xml

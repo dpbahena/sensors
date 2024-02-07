@@ -1,0 +1,367 @@
+[0.000000] (-) TimerEvent: {}
+[0.001443] (mpu6050driver) JobQueued: {'identifier': 'mpu6050driver', 'dependencies': OrderedDict()}
+[0.002464] (mpu6050driver) JobStarted: {'identifier': 'mpu6050driver'}
+[0.098316] (mpu6050driver) JobProgress: {'identifier': 'mpu6050driver', 'progress': 'cmake'}
+[0.099295] (-) TimerEvent: {}
+[0.104954] (mpu6050driver) JobProgress: {'identifier': 'mpu6050driver', 'progress': 'build'}
+[0.107776] (mpu6050driver) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/sensors_ws/build/mpu6050driver', '--', '-j8', '-l8'], 'cwd': '/home/sensors_ws/build/mpu6050driver', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('JETSON_MODEL_NAME', 'JETSON_XAVIER'), ('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/sensors_ws/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XAUTHORITY', '/tmp/.docker.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/home/sensors_ws/install/mpu6050driver:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/home/sensors_ws/build/mpu6050driver'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sensors_ws/install/mpu6050driver:/opt/ros/humble/install')]), 'shell': False}
+[0.199846] (-) TimerEvent: {}
+[0.301661] (-) TimerEvent: {}
+[0.353621] (mpu6050driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pitch_roll\x1b[0m\n'}
+[0.392976] (mpu6050driver) StdoutLine: {'line': b'[ 60%] Built target mpu6050driver\n'}
+[0.401880] (-) TimerEvent: {}
+[0.425394] (mpu6050driver) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/pitch_roll.dir/src/pitch_roll.cpp.o\x1b[0m\n'}
+[0.502075] (-) TimerEvent: {}
+[0.602878] (-) TimerEvent: {}
+[0.703665] (-) TimerEvent: {}
+[0.804527] (-) TimerEvent: {}
+[0.905581] (-) TimerEvent: {}
+[1.006633] (-) TimerEvent: {}
+[1.108117] (-) TimerEvent: {}
+[1.209522] (-) TimerEvent: {}
+[1.310324] (-) TimerEvent: {}
+[1.411554] (-) TimerEvent: {}
+[1.512458] (-) TimerEvent: {}
+[1.613268] (-) TimerEvent: {}
+[1.714073] (-) TimerEvent: {}
+[1.814971] (-) TimerEvent: {}
+[1.915850] (-) TimerEvent: {}
+[2.016706] (-) TimerEvent: {}
+[2.118008] (-) TimerEvent: {}
+[2.218892] (-) TimerEvent: {}
+[2.319649] (-) TimerEvent: {}
+[2.420395] (-) TimerEvent: {}
+[2.521178] (-) TimerEvent: {}
+[2.622031] (-) TimerEvent: {}
+[2.722871] (-) TimerEvent: {}
+[2.823698] (-) TimerEvent: {}
+[2.924494] (-) TimerEvent: {}
+[3.025231] (-) TimerEvent: {}
+[3.126030] (-) TimerEvent: {}
+[3.226881] (-) TimerEvent: {}
+[3.327675] (-) TimerEvent: {}
+[3.428485] (-) TimerEvent: {}
+[3.529341] (-) TimerEvent: {}
+[3.630139] (-) TimerEvent: {}
+[3.731050] (-) TimerEvent: {}
+[3.831995] (-) TimerEvent: {}
+[3.932870] (-) TimerEvent: {}
+[4.033683] (-) TimerEvent: {}
+[4.134590] (-) TimerEvent: {}
+[4.235560] (-) TimerEvent: {}
+[4.336443] (-) TimerEvent: {}
+[4.437318] (-) TimerEvent: {}
+[4.538131] (-) TimerEvent: {}
+[4.639043] (-) TimerEvent: {}
+[4.739911] (-) TimerEvent: {}
+[4.841106] (-) TimerEvent: {}
+[4.941948] (-) TimerEvent: {}
+[5.042818] (-) TimerEvent: {}
+[5.143646] (-) TimerEvent: {}
+[5.244538] (-) TimerEvent: {}
+[5.345395] (-) TimerEvent: {}
+[5.446267] (-) TimerEvent: {}
+[5.547177] (-) TimerEvent: {}
+[5.648165] (-) TimerEvent: {}
+[5.749011] (-) TimerEvent: {}
+[5.849821] (-) TimerEvent: {}
+[5.950717] (-) TimerEvent: {}
+[6.051955] (-) TimerEvent: {}
+[6.152776] (-) TimerEvent: {}
+[6.253634] (-) TimerEvent: {}
+[6.354464] (-) TimerEvent: {}
+[6.455362] (-) TimerEvent: {}
+[6.556216] (-) TimerEvent: {}
+[6.657079] (-) TimerEvent: {}
+[6.757959] (-) TimerEvent: {}
+[6.858845] (-) TimerEvent: {}
+[6.959671] (-) TimerEvent: {}
+[7.060539] (-) TimerEvent: {}
+[7.161297] (-) TimerEvent: {}
+[7.262563] (-) TimerEvent: {}
+[7.363400] (-) TimerEvent: {}
+[7.464499] (-) TimerEvent: {}
+[7.565287] (-) TimerEvent: {}
+[7.666078] (-) TimerEvent: {}
+[7.766977] (-) TimerEvent: {}
+[7.867754] (-) TimerEvent: {}
+[7.968562] (-) TimerEvent: {}
+[8.069430] (-) TimerEvent: {}
+[8.170281] (-) TimerEvent: {}
+[8.271198] (-) TimerEvent: {}
+[8.371998] (-) TimerEvent: {}
+[8.472813] (-) TimerEvent: {}
+[8.573655] (-) TimerEvent: {}
+[8.674487] (-) TimerEvent: {}
+[8.775331] (-) TimerEvent: {}
+[8.876152] (-) TimerEvent: {}
+[8.976987] (-) TimerEvent: {}
+[9.077802] (-) TimerEvent: {}
+[9.178632] (-) TimerEvent: {}
+[9.279804] (-) TimerEvent: {}
+[9.380838] (-) TimerEvent: {}
+[9.481689] (-) TimerEvent: {}
+[9.582620] (-) TimerEvent: {}
+[9.683535] (-) TimerEvent: {}
+[9.784373] (-) TimerEvent: {}
+[9.885959] (-) TimerEvent: {}
+[9.986846] (-) TimerEvent: {}
+[10.087695] (-) TimerEvent: {}
+[10.188470] (-) TimerEvent: {}
+[10.289306] (-) TimerEvent: {}
+[10.390165] (-) TimerEvent: {}
+[10.491073] (-) TimerEvent: {}
+[10.591946] (-) TimerEvent: {}
+[10.693129] (-) TimerEvent: {}
+[10.794142] (-) TimerEvent: {}
+[10.895089] (-) TimerEvent: {}
+[10.995969] (-) TimerEvent: {}
+[11.096840] (-) TimerEvent: {}
+[11.197664] (-) TimerEvent: {}
+[11.298411] (-) TimerEvent: {}
+[11.399352] (-) TimerEvent: {}
+[11.500169] (-) TimerEvent: {}
+[11.601063] (-) TimerEvent: {}
+[11.701967] (-) TimerEvent: {}
+[11.802898] (-) TimerEvent: {}
+[11.904433] (-) TimerEvent: {}
+[12.005671] (-) TimerEvent: {}
+[12.107167] (-) TimerEvent: {}
+[12.208390] (-) TimerEvent: {}
+[12.309625] (-) TimerEvent: {}
+[12.410925] (-) TimerEvent: {}
+[12.512383] (-) TimerEvent: {}
+[12.613594] (-) TimerEvent: {}
+[12.715209] (-) TimerEvent: {}
+[12.816734] (-) TimerEvent: {}
+[12.917613] (-) TimerEvent: {}
+[13.018547] (-) TimerEvent: {}
+[13.119642] (-) TimerEvent: {}
+[13.222114] (-) TimerEvent: {}
+[13.323022] (-) TimerEvent: {}
+[13.423836] (-) TimerEvent: {}
+[13.524599] (-) TimerEvent: {}
+[13.625405] (-) TimerEvent: {}
+[13.726222] (-) TimerEvent: {}
+[13.827079] (-) TimerEvent: {}
+[13.927860] (-) TimerEvent: {}
+[14.028735] (-) TimerEvent: {}
+[14.129577] (-) TimerEvent: {}
+[14.230414] (-) TimerEvent: {}
+[14.331243] (-) TimerEvent: {}
+[14.432120] (-) TimerEvent: {}
+[14.533045] (-) TimerEvent: {}
+[14.633883] (-) TimerEvent: {}
+[14.734612] (-) TimerEvent: {}
+[14.835423] (-) TimerEvent: {}
+[14.936274] (-) TimerEvent: {}
+[15.037153] (-) TimerEvent: {}
+[15.138005] (-) TimerEvent: {}
+[15.238870] (-) TimerEvent: {}
+[15.339919] (-) TimerEvent: {}
+[15.440861] (-) TimerEvent: {}
+[15.541793] (-) TimerEvent: {}
+[15.642717] (-) TimerEvent: {}
+[15.743588] (-) TimerEvent: {}
+[15.844800] (-) TimerEvent: {}
+[15.945623] (-) TimerEvent: {}
+[16.047713] (-) TimerEvent: {}
+[16.148494] (-) TimerEvent: {}
+[16.249351] (-) TimerEvent: {}
+[16.350190] (-) TimerEvent: {}
+[16.450971] (-) TimerEvent: {}
+[16.551712] (-) TimerEvent: {}
+[16.652471] (-) TimerEvent: {}
+[16.753297] (-) TimerEvent: {}
+[16.854104] (-) TimerEvent: {}
+[16.955076] (-) TimerEvent: {}
+[17.055906] (-) TimerEvent: {}
+[17.156769] (-) TimerEvent: {}
+[17.257609] (-) TimerEvent: {}
+[17.358538] (-) TimerEvent: {}
+[17.459376] (-) TimerEvent: {}
+[17.560231] (-) TimerEvent: {}
+[17.662050] (-) TimerEvent: {}
+[17.762847] (-) TimerEvent: {}
+[17.863599] (-) TimerEvent: {}
+[17.964380] (-) TimerEvent: {}
+[18.065148] (-) TimerEvent: {}
+[18.166023] (-) TimerEvent: {}
+[18.266887] (-) TimerEvent: {}
+[18.367730] (-) TimerEvent: {}
+[18.468530] (-) TimerEvent: {}
+[18.569423] (-) TimerEvent: {}
+[18.670202] (-) TimerEvent: {}
+[18.771105] (-) TimerEvent: {}
+[18.871937] (-) TimerEvent: {}
+[18.972677] (-) TimerEvent: {}
+[19.073525] (-) TimerEvent: {}
+[19.174398] (-) TimerEvent: {}
+[19.275288] (-) TimerEvent: {}
+[19.376103] (-) TimerEvent: {}
+[19.476990] (-) TimerEvent: {}
+[19.577802] (-) TimerEvent: {}
+[19.678705] (-) TimerEvent: {}
+[19.779708] (-) TimerEvent: {}
+[19.880723] (-) TimerEvent: {}
+[19.982209] (-) TimerEvent: {}
+[20.083198] (-) TimerEvent: {}
+[20.184334] (-) TimerEvent: {}
+[20.285098] (-) TimerEvent: {}
+[20.385929] (-) TimerEvent: {}
+[20.486756] (-) TimerEvent: {}
+[20.587600] (-) TimerEvent: {}
+[20.688471] (-) TimerEvent: {}
+[20.789435] (-) TimerEvent: {}
+[20.890335] (-) TimerEvent: {}
+[20.991643] (-) TimerEvent: {}
+[21.092422] (-) TimerEvent: {}
+[21.193537] (-) TimerEvent: {}
+[21.294354] (-) TimerEvent: {}
+[21.395222] (-) TimerEvent: {}
+[21.496102] (-) TimerEvent: {}
+[21.596914] (-) TimerEvent: {}
+[21.697757] (-) TimerEvent: {}
+[21.798566] (-) TimerEvent: {}
+[21.899459] (-) TimerEvent: {}
+[22.000266] (-) TimerEvent: {}
+[22.101082] (-) TimerEvent: {}
+[22.201934] (-) TimerEvent: {}
+[22.302867] (-) TimerEvent: {}
+[22.403620] (-) TimerEvent: {}
+[22.504360] (-) TimerEvent: {}
+[22.605155] (-) TimerEvent: {}
+[22.706086] (-) TimerEvent: {}
+[22.807048] (-) TimerEvent: {}
+[22.907901] (-) TimerEvent: {}
+[23.008757] (-) TimerEvent: {}
+[23.109668] (-) TimerEvent: {}
+[23.210614] (-) TimerEvent: {}
+[23.311895] (-) TimerEvent: {}
+[23.413118] (-) TimerEvent: {}
+[23.514360] (-) TimerEvent: {}
+[23.615362] (-) TimerEvent: {}
+[23.716593] (-) TimerEvent: {}
+[23.817350] (-) TimerEvent: {}
+[23.918326] (-) TimerEvent: {}
+[24.019129] (-) TimerEvent: {}
+[24.119848] (-) TimerEvent: {}
+[24.220572] (-) TimerEvent: {}
+[24.321332] (-) TimerEvent: {}
+[24.422111] (-) TimerEvent: {}
+[24.522856] (-) TimerEvent: {}
+[24.623593] (-) TimerEvent: {}
+[24.724320] (-) TimerEvent: {}
+[24.825093] (-) TimerEvent: {}
+[24.925936] (-) TimerEvent: {}
+[25.026792] (-) TimerEvent: {}
+[25.127792] (-) TimerEvent: {}
+[25.228912] (-) TimerEvent: {}
+[25.330003] (-) TimerEvent: {}
+[25.431014] (-) TimerEvent: {}
+[25.531895] (-) TimerEvent: {}
+[25.632685] (-) TimerEvent: {}
+[25.733720] (-) TimerEvent: {}
+[25.834560] (-) TimerEvent: {}
+[25.935431] (-) TimerEvent: {}
+[26.037615] (-) TimerEvent: {}
+[26.138405] (-) TimerEvent: {}
+[26.239298] (-) TimerEvent: {}
+[26.340137] (-) TimerEvent: {}
+[26.440915] (-) TimerEvent: {}
+[26.541735] (-) TimerEvent: {}
+[26.642557] (-) TimerEvent: {}
+[26.743474] (-) TimerEvent: {}
+[26.844273] (-) TimerEvent: {}
+[26.945134] (-) TimerEvent: {}
+[27.046029] (-) TimerEvent: {}
+[27.146899] (-) TimerEvent: {}
+[27.247758] (-) TimerEvent: {}
+[27.348640] (-) TimerEvent: {}
+[27.449532] (-) TimerEvent: {}
+[27.550341] (-) TimerEvent: {}
+[27.651164] (-) TimerEvent: {}
+[27.751973] (-) TimerEvent: {}
+[27.852815] (-) TimerEvent: {}
+[27.953631] (-) TimerEvent: {}
+[28.054491] (-) TimerEvent: {}
+[28.155379] (-) TimerEvent: {}
+[28.256228] (-) TimerEvent: {}
+[28.357082] (-) TimerEvent: {}
+[28.457880] (-) TimerEvent: {}
+[28.558789] (-) TimerEvent: {}
+[28.659622] (-) TimerEvent: {}
+[28.760505] (-) TimerEvent: {}
+[28.861404] (-) TimerEvent: {}
+[28.962243] (-) TimerEvent: {}
+[29.063176] (-) TimerEvent: {}
+[29.164023] (-) TimerEvent: {}
+[29.264863] (-) TimerEvent: {}
+[29.365872] (-) TimerEvent: {}
+[29.466756] (-) TimerEvent: {}
+[29.567509] (-) TimerEvent: {}
+[29.668348] (-) TimerEvent: {}
+[29.769213] (-) TimerEvent: {}
+[29.870089] (-) TimerEvent: {}
+[29.970942] (-) TimerEvent: {}
+[30.071806] (-) TimerEvent: {}
+[30.172571] (-) TimerEvent: {}
+[30.273483] (-) TimerEvent: {}
+[30.374291] (-) TimerEvent: {}
+[30.475175] (-) TimerEvent: {}
+[30.576006] (-) TimerEvent: {}
+[30.640231] (mpu6050driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pitch_roll\x1b[0m\n'}
+[30.676339] (-) TimerEvent: {}
+[30.777791] (-) TimerEvent: {}
+[30.879655] (-) TimerEvent: {}
+[30.980534] (-) TimerEvent: {}
+[31.081450] (-) TimerEvent: {}
+[31.182487] (-) TimerEvent: {}
+[31.283524] (-) TimerEvent: {}
+[31.384422] (-) TimerEvent: {}
+[31.485342] (-) TimerEvent: {}
+[31.586451] (-) TimerEvent: {}
+[31.687382] (-) TimerEvent: {}
+[31.788270] (-) TimerEvent: {}
+[31.889105] (-) TimerEvent: {}
+[31.989978] (-) TimerEvent: {}
+[32.051481] (mpu6050driver) StdoutLine: {'line': b'[100%] Built target pitch_roll\n'}
+[32.086076] (mpu6050driver) CommandEnded: {'returncode': 0}
+[32.092799] (-) TimerEvent: {}
+[32.197304] (-) TimerEvent: {}
+[32.298298] (-) TimerEvent: {}
+[32.313285] (mpu6050driver) JobProgress: {'identifier': 'mpu6050driver', 'progress': 'install'}
+[32.399156] (-) TimerEvent: {}
+[32.468042] (mpu6050driver) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/sensors_ws/build/mpu6050driver'], 'cwd': '/home/sensors_ws/build/mpu6050driver', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('JETSON_MODEL_NAME', 'JETSON_XAVIER'), ('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/sensors_ws/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XAUTHORITY', '/tmp/.docker.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/home/sensors_ws/install/mpu6050driver:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/home/sensors_ws/build/mpu6050driver'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sensors_ws/install/mpu6050driver:/opt/ros/humble/install')]), 'shell': False}
+[32.499242] (-) TimerEvent: {}
+[32.598195] (mpu6050driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[32.599380] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/sensors_ws/install/mpu6050driver/lib/mpu6050driver/mpu6050driver\n'}
+[32.599814] (-) TimerEvent: {}
+[32.601561] (mpu6050driver) StdoutLine: {'line': b'-- Installing: /home/sensors_ws/install/mpu6050driver/lib/mpu6050driver/pitch_roll\n'}
+[32.631679] (mpu6050driver) StdoutLine: {'line': b'-- Set runtime path of "/home/sensors_ws/install/mpu6050driver/lib/mpu6050driver/pitch_roll" to ""\n'}
+[32.632803] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver//launch\n'}
+[32.633333] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver//launch/mpu6050driver_launch.py\n'}
+[32.633810] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver//params\n'}
+[32.634282] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver//params/mpu6050.yaml\n'}
+[32.634721] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/ament_index/resource_index/package_run_dependencies/mpu6050driver\n'}
+[32.635093] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/ament_index/resource_index/parent_prefix_path/mpu6050driver\n'}
+[32.635404] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/environment/ament_prefix_path.sh\n'}
+[32.635977] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/environment/ament_prefix_path.dsv\n'}
+[32.636386] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/environment/path.sh\n'}
+[32.636659] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/environment/path.dsv\n'}
+[32.636922] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/local_setup.bash\n'}
+[32.637196] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/local_setup.sh\n'}
+[32.637511] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/local_setup.zsh\n'}
+[32.637784] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/local_setup.dsv\n'}
+[32.638044] (mpu6050driver) StdoutLine: {'line': b'-- Installing: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/package.dsv\n'}
+[32.638378] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/ament_index/resource_index/packages/mpu6050driver\n'}
+[32.638804] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/cmake/mpu6050driverConfig.cmake\n'}
+[32.639184] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/cmake/mpu6050driverConfig-version.cmake\n'}
+[32.639608] (mpu6050driver) StdoutLine: {'line': b'-- Up-to-date: /home/sensors_ws/install/mpu6050driver/share/mpu6050driver/package.xml\n'}
+[32.660713] (mpu6050driver) CommandEnded: {'returncode': 0}
+[32.700049] (-) TimerEvent: {}
+[32.801381] (-) TimerEvent: {}
+[32.903050] (-) TimerEvent: {}
+[33.006065] (-) TimerEvent: {}
+[33.059600] (mpu6050driver) JobEnded: {'identifier': 'mpu6050driver', 'rc': 0}
+[33.064132] (-) EventReactorShutdown: {}
